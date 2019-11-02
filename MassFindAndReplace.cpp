@@ -34,7 +34,7 @@ bool LoadFile(std::string filename, std::vector<std::wstring>& text)
 	return true;
 }
 
-//[unused] planned function for comma delimited word list (CVS style spread sheet)
+//[unused] planned function for comma delimited word list (CSV style spread sheet)
 bool LoadItems(std::string filename, std::vector<std::wstring>& items)
 {
 	std::wifstream in(filename.c_str(), std::ios::binary);
